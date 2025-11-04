@@ -1,0 +1,15 @@
+{
+  "java.project.referencedLibraries": [
+    "javafx-sdk-25.0.1/lib/*.jar"
+  ],
+  "java.project.sourcePaths": [
+    "App"
+  ],
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-25",
+      "path": "C:\\Program Files\\Java\\jdk-25",
+      "default": true
+    }
+  ]
+}
