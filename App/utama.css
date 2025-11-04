@@ -1,0 +1,60 @@
+.root {
+    -fx-font-family: "SansSerif";
+}
+
+/* Navbar */
+.navbar {
+    -fx-background-color: #b4ada0;
+    -fx-padding: 10 20;
+    -fx-alignment: center-left;
+    -fx-spacing: 15;
+    -fx-background-radius: 20;
+}
+
+/* Tombol kiri (TNGM) */
+.nav-left {
+    -fx-background-color: #b4ada0;
+    -fx-font-size: 14px;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+}
+
+/* Tombol kanan */
+.nav-button {
+    -fx-background-color: #b4ada0;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+}
+
+.nav-button:hover, .nav-left:hover {
+    -fx-background-color: #a69f90;
+}
+
+/* Konten Tengah */
+.content .title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.content .description {
+    -fx-font-size: 16px;
+    -fx-text-fill: black;
+}
+
+/* Tombol bawah */
+.main-button {
+    -fx-background-color: #968c78;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 25;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.main-button:hover {
+    -fx-background-color: #7f7565;
+}
